@@ -28,6 +28,7 @@ import { IoIosArrowDown, IoIosArrowForward as ChevronRight, IoIosMenu as Menu, I
 import { ManualConfig } from './types';
 import { Sparkles } from 'lucide-react';
 
+
 // Default configuration
 const DEFAULT_CONFIG: ManualConfig = {
   appName: "Anura Web Identifier",
@@ -296,7 +297,7 @@ export default function App() {
             {/* Logo */}
             <div className="flex items-center gap-3">
               <img
-                src="/src/assets/images/anura_tree_frog_1780352792965.png"
+                src="./images/anura_tree_frog_1780352792965.png"
                 alt="Logo Anura"
                 className="h-10 w-auto object-contain"
               />
@@ -472,7 +473,7 @@ export default function App() {
         {/* Hero Banner */}
         <section id="inicio" className="mb-10 bg-gradient-to-br from-primary/10 via-surface-2 to-surface border-2 border-primary/20 rounded-brand py-20 sm:py-28 px-16 sm:px-24 relative overflow-hidden transition-all shadow-brand/10 shadow-lg">
           <img
-            src="/src/assets/images/Hyloscirtus palmeri 096.png"
+            src="./images/Hyloscirtus palmeri 096.png"
             alt=""
             className="absolute right-0 bottom-0 h-auto w-1/2 opacity-15 pointer-events-none"
           />
@@ -498,7 +499,7 @@ export default function App() {
                 <ExternalLink className="w-4 h-4" />
               </a>
               <a
-                href="/Formato-Proyecto-Ingenieria.pdf"
+                href="./Formato-Proyecto-Ingenieria.pdf"
                 download
                 className="px-5 py-3 bg-surface-2 border border-border hover:border-primary/50 hover:bg-primary/5 text-text rounded-lg text-xs font-bold transition flex items-center gap-1.5 shadow-sm uppercase tracking-wider"
               >
@@ -545,7 +546,7 @@ export default function App() {
                 <div className="flex flex-col lg:flex-row gap-8 items-center lg:items-start mb-8 pt-4">
                   <div className="border border-border rounded-xl overflow-hidden bg-surface-2 hover:border-primary/40 transition-colors flex-shrink-0 lg:w-[580px]">
                     <img
-                      src="/src/assets/images/Dendrobates truncatus 001.png"
+                      src="./images/Dendrobates truncatus 001.png"
                       alt="Dendrobates truncatus"
                       className="w-full h-auto object-cover hover:scale-[1.02] transition-transform duration-300"
                     />
@@ -1339,7 +1340,7 @@ export default function App() {
                       </p>
                       
                       <a
-                        href="/Formato-Proyecto-Ingenieria.pdf"
+                        href="./Formato-Proyecto-Ingenieria.pdf"
                         download
                         className="inline-flex items-center gap-2 px-5 py-2.5 bg-primary hover:bg-primary-dark text-white rounded-lg text-xs font-bold transition shadow-md"
                       >
@@ -1355,7 +1356,7 @@ export default function App() {
                           <FileCode className="w-3.5 h-3.5 text-primary" /> Previsualización PDF
                         </span>
                         <a
-                          href="/Formato-Proyecto-Ingenieria.pdf"
+                          href="./Formato-Proyecto-Ingenieria.pdf"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="text-primary hover:underline font-bold"
@@ -1365,7 +1366,7 @@ export default function App() {
                       </div>
                       <div className="relative w-full h-[400px]">
                         <iframe
-                          src="/Formato-Proyecto-Ingenieria.pdf#toolbar=0&navpanes=0&scrollbar=0"
+                          src="./Formato-Proyecto-Ingenieria.pdf#toolbar=0&navpanes=0&scrollbar=0"
                           className="w-full h-full border-none bg-white"
                           title="Formato Proyecto Ingeniería de Software"
                         />
